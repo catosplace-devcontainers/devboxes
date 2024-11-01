@@ -1,9 +1,13 @@
 {
     "packages": [
-        "git",
-        "bash",
-        "coreutils"
+        "git@2.46.0",
+        "bash@5.2p26",
+        "coreutils@9.4",
+        "nodejs@22.8.0"
     ],
+    "env": {
+        "DEVBOX_COREPACK_ENABLED": "true"
+    },
     "shell": {
         "init_hook": [
             "./adr-setup.sh",
