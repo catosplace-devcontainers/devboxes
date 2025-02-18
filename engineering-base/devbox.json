@@ -3,7 +3,7 @@
         "git@2.47.2",
         "bash@5.2p26",
         "coreutils@9.4",
-        "nodejs@22.13.1"
+        "nodejs@23.7.0"
     ],
     "env": {
         "DEVBOX_COREPACK_ENABLED": "true"
