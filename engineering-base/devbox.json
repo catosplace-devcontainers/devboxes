@@ -1,6 +1,6 @@
 {
     "packages": [
-        "git@2.47.2",
+        "git@2.48.1",
         "bash@5.2p26",
         "coreutils@9.4",
         "nodejs@23.7.0"
