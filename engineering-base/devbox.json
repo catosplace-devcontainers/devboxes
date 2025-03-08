@@ -3,15 +3,10 @@
         "git@2.48.1",
         "bash@5.2p26",
         "coreutils@9.4",
+        "adrs@0.2.9",
         "nodejs@23.9.0"
     ],
     "env": {
         "DEVBOX_COREPACK_ENABLED": "true"
-    },
-    "shell": {
-        "init_hook": [
-            "./adr-setup.sh",
-            "export PATH=$PATH:/usr/local/bin/adr/src"
-        ]
     }
 }
