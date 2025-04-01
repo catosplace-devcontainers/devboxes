@@ -1,0 +1,36 @@
+name: Devbox Test
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  devbox-tests:
+    runs-on: ubuntu-24.04
+    # act does not support ubuntu-24.04 yet so use this when running locally
+    # runs-on: ubuntu-latest
+
+    steps:
+      
+      # Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Use this for local testing with act
+      # - name: Install nix in container
+      #   uses: DeterminateSystems/nix-installer-action@v4
+      #   with:
+      #     logger: pretty
+      #     extra-conf: experimental-features = ca-derivations fetch-closure
+      #     init: 'none'
+
+      - name: Install devbox
+        uses: jetify-com/devbox-install-action@v0.12.0
+        with:
+          project-path: 'base'
+          # Use this when running locally with act
+          # skip-nix-installation: 'true'
+
+      - name: Run arbitrary commands
+        run: devbox run -c base git --version

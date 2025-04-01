@@ -35,6 +35,13 @@ Before you can run the Devbox shell, ensure you have the following installed:
     devbox shell
     ```
 
+## Using `act` to run GitHub Actions locally
+
+Need to create a `.secrets` file with the GITHUB_TOKEN included
+
+```
+GITHUB_TOKEN={YOUR_GITHUB_TOKEN}
+```
 <!-- 
 NOTE: Need to add this documents before making these available
 
