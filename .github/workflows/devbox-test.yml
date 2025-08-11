@@ -15,7 +15,7 @@ jobs:
       
       # Checkout the repository
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       # Use this for local testing with act
       # - name: Install nix in container
