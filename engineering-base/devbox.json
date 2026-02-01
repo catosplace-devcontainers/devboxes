@@ -3,7 +3,7 @@
         "git@2.52.0",
         "bash@5.2p26",
         "coreutils@9.4",
-        "adrs@0.5.0",
+        "adrs@0.6.1",
         "nodejs@25.4.0"
     ],
     "env": {
