@@ -1,6 +1,6 @@
 {
     "packages": [
-        "git@2.52.0",
+        "git@2.53.0",
         "bash@5.2p26",
         "coreutils@9.4",
         "adrs@0.7.0",
