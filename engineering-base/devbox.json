@@ -4,7 +4,7 @@
         "bash@5.2p26",
         "coreutils@9.4",
         "adrs@0.12.1",
-        "nodejs@25.9.0"
+        "nodejs@26.12.1"
     ],
     "env": {
         "DEVBOX_COREPACK_ENABLED": "true"
